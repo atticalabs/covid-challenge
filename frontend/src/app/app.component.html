@@ -14,8 +14,23 @@
             </ion-item>
           </ion-menu-toggle>
         </ion-list>
+
+        <br>
+
+        <!-- TODO: Fix transition -->
+        <a routerLink="/login" >
+          <ion-button > 
+            <ion-icon name="log-in-outline"></ion-icon>
+            <label >Ingresar</label>
+          </ion-button>
+        </a>
+        
       </ion-content>
+      
     </ion-menu>
+    
     <ion-router-outlet id="main-content"></ion-router-outlet>
+    
   </ion-split-pane>
+
 </ion-app>
