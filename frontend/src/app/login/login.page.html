@@ -1,34 +1,43 @@
-<!-- TODO: Alignment -->
+
+
 <ion-grid>
   <ion-row align-self-center>
     <ion-col align-self-center>
     <!-- TODO: Fetch image off project -->
-      <img src="https://d3n8a8pro7vhmx.cloudfront.net/yeu/pages/931/attachments/original/1584647692/covid_19_icon.png" style="max-height: 150px;">
-          
-      <br> 
+       
 
-      <ion-title size="large">Desafio COVID-19</ion-title>
+      <div class="ion-text-center">
+
+        <img src="https://d3n8a8pro7vhmx.cloudfront.net/yeu/pages/931/attachments/original/1584647692/covid_19_icon.png" style="max-height: 150px;">
+          
+      <br>
+        
+        <ion-title size="large">Desafio COVID-19</ion-title>
+      
 
       <br>
 
-      <ion-button shape = "round" fill = "outline" expand = "block">
-        <ion-icon name="logo-facebook"></ion-icon>
-        <label>Ingresa con Facebook</label>
-      </ion-button>
-
-      <ion-button shape = "round" fill = "outline" expand = "block">
+      <!-- TODO: Use Google's original colors in icon -->
+      <ion-button shape = "round" fill = "outline" expand = "block" color ="medium">
         <ion-icon name="logo-google"></ion-icon>
-        <label>Ingresa con Google</label>
+        <label>Ingresá con Google</label>
       </ion-button>
 
-      <ion-button shape = "round" fill = "outline" expand = "block">
+      <ion-button shape = "round" expand = "block" color="tertiary">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <label>Ingresá con Facebook</label>
+      </ion-button>
+
+
+      <ion-button shape = "round" expand = "block" color="secondary">
         <ion-icon name="logo-twitter"></ion-icon>
-        <label>Ingresa con Twitter</label>
+        <label>Ingresá con Twitter</label>
       </ion-button>
 
        <br>
 
-      <ion-note >#MeQuedoEnCasa</ion-note>
+       <ion-text color="tertiary">#MeQuedoEnCasa</ion-text>
+      </div>
     </ion-col>
   </ion-row>
 </ion-grid>
