@@ -10,6 +10,11 @@ export class MenuPage implements OnInit {
   //TODO: Main y La casa tienen el mismo icono, cambiar alguno
   pages = [
     {
+      title: 'Login test',
+      url: '/menu/login',
+      icon: 'log-in-outline'
+    },
+    {
       title: 'Main',
       url: '/menu/main',
       icon: 'home'
