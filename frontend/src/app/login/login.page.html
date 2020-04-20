@@ -11,10 +11,7 @@
         <img src="https://d3n8a8pro7vhmx.cloudfront.net/yeu/pages/931/attachments/original/1584647692/covid_19_icon.png" style="max-height: 150px;">
           
       <br>
-        
         <ion-title size="large">Desafio COVID-19</ion-title>
-      
-
       <br>
 
       <!-- TODO: Use Google's original colors in icon -->
@@ -23,7 +20,7 @@
         <label>Ingresá con Google</label>
       </ion-button>
 
-      <ion-button shape = "round" expand = "block" color="tertiary">
+      <ion-button (click)="signIn()" shape = "round" expand = "block" color="tertiary">
         <ion-icon name="logo-facebook"></ion-icon>
         <label>Ingresá con Facebook</label>
       </ion-button>

@@ -4,6 +4,10 @@ import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 
+import { FacebookLogin } from '@rdlabo/capacitor-facebook-login';
+import {registerWebPlugin} from "@capacitor/core";
+
+
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -62,6 +66,7 @@ export class AppComponent implements OnInit {
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
+      registerWebPlugin(FacebookLogin);
     });
   }
 
