@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CovidChallenge",
+    "\\CovidChallenge\\Data",
+    "\\CovidChallenge\\Data\\Configurations",
+    "\\CovidChallenge\\Domain",
+    "\\CovidChallenge\\DomainDtos",
+    "\\CovidChallenge\\DomainShared\\Enums",
+    "\\CovidChallenge\\Domain\\Challenges",
+    "\\CovidChallenge\\Domain\\Users"
+  ],
+  "SelectedNode": "\\CovidChallenge\\Domain\\Challenges\\Goal.cs",
+  "PreviewInSolutionExplorer": false
+}
