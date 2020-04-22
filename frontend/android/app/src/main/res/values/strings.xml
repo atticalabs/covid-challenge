@@ -4,4 +4,6 @@
     <string name="title_activity_main">covid-challenge</string>
     <string name="package_name">com.covidchallenge.app</string>
     <string name="custom_url_scheme">com.covidchallenge.app</string>
+    <string name="facebook_app_id">218516549492675</string>
+    <string name="fb_login_protocol_scheme">fb218516549492675</string>
 </resources>

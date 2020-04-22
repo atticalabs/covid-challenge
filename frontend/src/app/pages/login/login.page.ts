@@ -28,7 +28,7 @@ export class LoginPage implements OnInit {
             userinfo: JSON.stringify(user)
           }
         };
-        this.router.navigate(["/home"], navigationExtras);
+        this.router.navigate(["menu/home"], navigationExtras);
       }
     } catch (e) {
       console.log(e);
@@ -46,7 +46,7 @@ export class LoginPage implements OnInit {
           userinfo: JSON.stringify(user)
         }
       };
-      this.router.navigate(["/home"], navigationExtras);
+      this.router.navigate(["menu/home"], navigationExtras);
     }
   }
 }
