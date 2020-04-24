@@ -6,10 +6,11 @@ export class Goal {
     public title: string;
     public description: string;
     public imagePath: string;
-    public date: IonDatetime;
+    //public date: IonDatetime;
+    public date: string;
 
     constructor(id: string, title: string, description: string,
-        imagePath: string, date: IonDatetime){
+        imagePath: string, date: string){
 
             this.id = id;
             this.title = title;

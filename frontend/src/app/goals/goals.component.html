@@ -1,3 +1,19 @@
-<p>
-  goals works!
-</p>
+<div class="row">
+
+  <div class="col-xs-12">
+
+    <a href="#" class="list-group-item clearfix" *ngFor="let g of goals">
+      <!-- <div class="pull-left">
+
+        
+
+      </div> -->
+
+      {{ g.id }}
+
+      {{ g.description }}
+      
+    </a>
+     <app-goal-item></app-goal-item>
+  </div>
+</div>

@@ -1,3 +1,99 @@
-<p>
-  goal-list works!
-</p>
+<div class="row">
+
+  <div class="col-xs-12">
+
+    <a href="#" class="list-group-item clearfix" *ngFor="let g of goals">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Lo matamos con jabón</ion-card-title>
+          <ion-card-subtitle>Subtítulo</ion-card-subtitle>
+        </ion-card-header>
+      
+        <ion-card-content>
+          <img src="https://w7.pngwing.com/pngs/212/551/png-transparent-person-washing-hands-art-hand-washing-wash-your-face-text-photography-hand.png" style="height: 100px; width: 100px;">
+          <br>
+          
+          Keep close to Nature's heart... and break clear away, once in awhile,
+          and climb a mountain or spend a week in the woods. Wash your spirit clean.
+        </ion-card-content>
+    
+        <ion-card>
+    
+          <ion-item class="grid-blue">
+            <ion-grid>
+              <ion-row>
+                <ion-col size="1">
+                  <div>
+                    Acción:
+                  </div>
+                </ion-col>
+                <ion-col>
+                  <div> 
+                    {{ g.title }}
+                  </div>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </ion-item>
+    
+          <ion-item class="grid-blue">
+            <ion-grid>
+              <ion-row>
+                <ion-col size="1">
+                  <div>
+                    <!-- TODO: tiempo en la entidad? -->
+                    Tiempo: ?
+                  </div>
+                </ion-col>
+                <ion-col>
+                  <div> 
+                    Hola
+                  </div>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </ion-item>
+    
+          <ion-item class="grid-blue">
+            <ion-grid>
+              <ion-row>
+                <ion-col size="1">
+                  <div>
+                    Descripción:
+                  </div>
+                </ion-col>
+                <ion-col>
+                  <div> 
+                    {{ g.description }}
+                  </div>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </ion-item>
+    
+          <ion-item class="grid-blue">
+            <ion-grid>
+              <ion-row>
+                <ion-col size="1">
+                  <div>
+                    Fin:
+                  </div>
+                </ion-col>
+                <ion-col>
+                  <div> 
+                    {{ g.date }}
+                  </div>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </ion-item>
+    
+        </ion-card>
+      </ion-card>
+
+      {{ g.description }}
+
+    </a>
+     <app-goal-item></app-goal-item>
+  </div>
+</div>
